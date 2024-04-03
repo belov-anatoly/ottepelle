@@ -11,7 +11,7 @@ public class Main {
         int cDays = sc.nextInt();
         int[] temp = new int[cDays];
         for (int i = 0; i < cDays; i++) {
-            System.out.println("Какая была температура в " + (i + 1) + " день?");
+            System.out.println("Какова была температура в " + (i + 1) + " день?");
             temp[i] = sc.nextInt();
         }
         for (int i = 0; i < cDays; i++) System.out.print(temp[i] + " ; ");
