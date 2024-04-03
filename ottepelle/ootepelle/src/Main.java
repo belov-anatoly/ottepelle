@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Самая длинная оттепель была "+calcMaxOttepel(temp)+" дней");
     }
     public static int[] inputTempFromConsole() {
-        System.out.println("За какое количество дней вести наблюдение?");
+        System.out.println("За какое количество дней вести наблюдение?  ");
         Scanner sc = new Scanner(System.in);
         int cDays = sc.nextInt();
         int[] temp = new int[cDays];
